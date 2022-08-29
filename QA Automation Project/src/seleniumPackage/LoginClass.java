@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginClass {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		WebDriver browserObject;
 		
@@ -18,8 +18,9 @@ public class LoginClass {
 		browserObject.get("http://admin-demo.nopcommerce.com/login");
 		
 		WebElement email = browserObject.findElement(By.id("Email"));
-		
 		email.clear();
+		
+		
 		
 		WebElement password = browserObject.findElement(By.id("Password"));
 		
@@ -30,6 +31,8 @@ public class LoginClass {
 		password.sendKeys("admin");
 		
 		WebElement button = browserObject.findElement(By.className("button-1"));
+		
+		Thread.sleep(3000);
 		
 		button.submit();
 		

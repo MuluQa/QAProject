@@ -1,29 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-24T11:32:21 EDT" name="Default suite" finished-at="2022-08-24T11:32:34 EDT" duration-ms="12579">
+  <suite started-at="2022-08-29T13:57:20 EDT" name="Default suite" finished-at="2022-08-29T13:59:46 EDT" duration-ms="145439">
     <groups>
     </groups>
-    <test started-at="2022-08-24T11:32:21 EDT" name="Default test" finished-at="2022-08-24T11:32:34 EDT" duration-ms="12579">
-      <class name="testNgPackage.AssertLogin">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNgPackage.AssertLogin@31e5415e]" started-at="2022-08-24T11:32:21 EDT" name="beforeTest" finished-at="2022-08-24T11:32:23 EDT" duration-ms="2150" status="PASS">
+    <test started-at="2022-08-29T13:57:20 EDT" name="Default test" finished-at="2022-08-29T13:59:46 EDT" duration-ms="145439">
+      <class name="testNgPackage.OpenBrowserClass">
+        <test-method signature="AddTheBookIntotheBasket()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:57:20 EDT" name="AddTheBookIntotheBasket" finished-at="2022-08-29T13:57:40 EDT" duration-ms="19901" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="performLogin()[pri:0, instance:testNgPackage.AssertLogin@31e5415e]" started-at="2022-08-24T11:32:23 EDT" name="performLogin" finished-at="2022-08-24T11:32:32 EDT" duration-ms="8030" status="PASS">
+        </test-method> <!-- AddTheBookIntotheBasket -->
+        <test-method signature="ClickOnDescriptionTab()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:57:40 EDT" name="ClickOnDescriptionTab" finished-at="2022-08-29T13:58:07 EDT" duration-ms="26887" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- performLogin -->
-        <test-method signature="assertHomePage()[pri:0, instance:testNgPackage.AssertLogin@31e5415e]" started-at="2022-08-24T11:32:32 EDT" name="assertHomePage" finished-at="2022-08-24T11:32:34 EDT" depends-on-methods="testNgPackage.AssertLogin.performLogin" duration-ms="2047" status="PASS">
+        </test-method> <!-- ClickOnDescriptionTab -->
+        <test-method signature="ClickOnTheHomeButton()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:58:07 EDT" name="ClickOnTheHomeButton" finished-at="2022-08-29T13:58:23 EDT" duration-ms="15718" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- assertHomePage -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNgPackage.AssertLogin@31e5415e]" started-at="2022-08-24T11:32:34 EDT" name="afterTest" finished-at="2022-08-24T11:32:34 EDT" duration-ms="278" status="PASS">
+        </test-method> <!-- ClickOnTheHomeButton -->
+        <test-method signature="ClickOnTheShopButton()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:58:23 EDT" name="ClickOnTheShopButton" finished-at="2022-08-29T13:58:35 EDT" duration-ms="11736" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- testNgPackage.AssertLogin -->
+        </test-method> <!-- ClickOnTheShopButton -->
+        <test-method signature="ClikingImageArrivals()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:58:35 EDT" name="ClikingImageArrivals" finished-at="2022-08-29T13:59:11 EDT" duration-ms="36106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClikingImageArrivals -->
+        <test-method signature="EnterTheUrl()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:59:11 EDT" name="EnterTheUrl" finished-at="2022-08-29T13:59:20 EDT" duration-ms="8858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterTheUrl -->
+        <test-method signature="HomePageThreeSliders()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:59:20 EDT" name="HomePageThreeSliders" finished-at="2022-08-29T13:59:36 EDT" duration-ms="16831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageThreeSliders -->
+        <test-method signature="OpeningBrowser()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:59:36 EDT" name="OpeningBrowser" finished-at="2022-08-29T13:59:46 EDT" duration-ms="9353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+      </class> <!-- testNgPackage.OpenBrowserClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

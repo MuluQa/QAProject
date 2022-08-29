@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class FillForm {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
 		WebDriver browserObject;
@@ -27,6 +27,7 @@ public class FillForm {
 		
 		browserObject.findElement(By.name("submit")).click();
 		
+		Thread.sleep(3000);
 		browserObject.close();
 		
 		
