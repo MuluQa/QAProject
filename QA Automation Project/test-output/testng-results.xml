@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-29T13:57:20 EDT" name="Default suite" finished-at="2022-08-29T13:59:46 EDT" duration-ms="145439">
+  <suite started-at="2022-08-30T11:39:14 EDT" name="Default suite" finished-at="2022-08-30T11:40:11 EDT" duration-ms="56622">
     <groups>
     </groups>
-    <test started-at="2022-08-29T13:57:20 EDT" name="Default test" finished-at="2022-08-29T13:59:46 EDT" duration-ms="145439">
-      <class name="testNgPackage.OpenBrowserClass">
-        <test-method signature="AddTheBookIntotheBasket()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:57:20 EDT" name="AddTheBookIntotheBasket" finished-at="2022-08-29T13:57:40 EDT" duration-ms="19901" status="PASS">
+    <test started-at="2022-08-30T11:39:14 EDT" name="Default test" finished-at="2022-08-30T11:40:11 EDT" duration-ms="56622">
+      <class name="testNgPackage.ArrivalImageReviews">
+        <test-method signature="ReviwingImage()[pri:0, instance:testNgPackage.ArrivalImageReviews@2177849e]" started-at="2022-08-30T11:39:14 EDT" name="ReviwingImage" finished-at="2022-08-30T11:40:11 EDT" duration-ms="56592" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddTheBookIntotheBasket -->
-        <test-method signature="ClickOnDescriptionTab()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:57:40 EDT" name="ClickOnDescriptionTab" finished-at="2022-08-29T13:58:07 EDT" duration-ms="26887" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnDescriptionTab -->
-        <test-method signature="ClickOnTheHomeButton()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:58:07 EDT" name="ClickOnTheHomeButton" finished-at="2022-08-29T13:58:23 EDT" duration-ms="15718" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnTheHomeButton -->
-        <test-method signature="ClickOnTheShopButton()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:58:23 EDT" name="ClickOnTheShopButton" finished-at="2022-08-29T13:58:35 EDT" duration-ms="11736" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnTheShopButton -->
-        <test-method signature="ClikingImageArrivals()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:58:35 EDT" name="ClikingImageArrivals" finished-at="2022-08-29T13:59:11 EDT" duration-ms="36106" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClikingImageArrivals -->
-        <test-method signature="EnterTheUrl()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:59:11 EDT" name="EnterTheUrl" finished-at="2022-08-29T13:59:20 EDT" duration-ms="8858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EnterTheUrl -->
-        <test-method signature="HomePageThreeSliders()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:59:20 EDT" name="HomePageThreeSliders" finished-at="2022-08-29T13:59:36 EDT" duration-ms="16831" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomePageThreeSliders -->
-        <test-method signature="OpeningBrowser()[pri:0, instance:testNgPackage.OpenBrowserClass@366647c2]" started-at="2022-08-29T13:59:36 EDT" name="OpeningBrowser" finished-at="2022-08-29T13:59:46 EDT" duration-ms="9353" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpeningBrowser -->
-      </class> <!-- testNgPackage.OpenBrowserClass -->
+        </test-method> <!-- ReviwingImage -->
+      </class> <!-- testNgPackage.ArrivalImageReviews -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

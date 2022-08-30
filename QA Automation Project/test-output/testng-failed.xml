@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNgPackage.BeforeAfterClassTwo">
+      <class name="testNgPackage.ArrivalImageReviews">
         <methods>
-          <include name="OpeningBrowserTwo"/>
+          <include name="ReviwingImage"/>
         </methods>
-      </class> <!-- testNgPackage.BeforeAfterClassTwo -->
+      </class> <!-- testNgPackage.ArrivalImageReviews -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
