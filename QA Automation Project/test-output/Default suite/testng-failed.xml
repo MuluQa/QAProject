@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNgPackage.ArrivalImageReviews">
+      <class name="testNgPackage.ArrivalsImage_AddToBasket">
         <methods>
-          <include name="ReviwingImage"/>
+          <include name="ViewMenuItemWithPrice"/>
+          <include name="ClikingTheImageInArravals"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="ClikingOnAddToBasketButton"/>
         </methods>
-      </class> <!-- testNgPackage.ArrivalImageReviews -->
+      </class> <!-- testNgPackage.ArrivalsImage_AddToBasket -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
