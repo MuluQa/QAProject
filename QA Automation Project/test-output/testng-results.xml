@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-09T15:29:44 EDT" name="Default suite" finished-at="2022-09-09T15:31:11 EDT" duration-ms="86990">
+  <suite started-at="2022-09-09T16:41:50 EDT" name="Default suite" finished-at="2022-09-09T16:43:14 EDT" duration-ms="83454">
     <groups>
     </groups>
-    <test started-at="2022-09-09T15:29:44 EDT" name="Default test" finished-at="2022-09-09T15:31:11 EDT" duration-ms="86990">
-      <class name="testNgPackage.ArrivalImageReviews">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNgPackage.ArrivalImageReviews@2dde1bff]" started-at="2022-09-09T15:29:44 EDT" name="beforeTest" finished-at="2022-09-09T15:29:46 EDT" duration-ms="1758" status="PASS">
+    <test started-at="2022-09-09T16:41:50 EDT" name="Default test" finished-at="2022-09-09T16:43:14 EDT" duration-ms="83454">
+      <class name="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:41:50 EDT" name="beforeTest" finished-at="2022-09-09T16:41:52 EDT" duration-ms="2085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="openingBrowser()[pri:1, instance:testNgPackage.ArrivalImageReviews@2dde1bff]" started-at="2022-09-09T15:29:46 EDT" name="openingBrowser" finished-at="2022-09-09T15:29:55 EDT" duration-ms="8357" status="PASS">
+        <test-method signature="OpeningBrowserTwo()[pri:1, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:41:52 EDT" name="OpeningBrowserTwo" finished-at="2022-09-09T16:42:03 EDT" duration-ms="10345" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openingBrowser -->
-        <test-method signature="OpningUrl()[pri:0, instance:testNgPackage.ArrivalImageReviews@2dde1bff]" started-at="2022-09-09T15:29:55 EDT" name="OpningUrl" finished-at="2022-09-09T15:29:58 EDT" depends-on-methods="testNgPackage.ArrivalImageReviews.openingBrowser" duration-ms="3011" status="PASS">
+        </test-method> <!-- OpeningBrowserTwo -->
+        <test-method signature="openingUrl()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:42:03 EDT" name="openingUrl" finished-at="2022-09-09T16:42:05 EDT" depends-on-methods="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice.OpeningBrowserTwo" duration-ms="2020" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpningUrl -->
-        <test-method signature="ClickingOnShopButton()[pri:0, instance:testNgPackage.ArrivalImageReviews@2dde1bff]" started-at="2022-09-09T15:29:58 EDT" name="ClickingOnShopButton" finished-at="2022-09-09T15:30:04 EDT" depends-on-methods="testNgPackage.ArrivalImageReviews.OpningUrl" duration-ms="6810" status="PASS">
+        </test-method> <!-- openingUrl -->
+        <test-method signature="ShopButton()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:42:05 EDT" name="ShopButton" finished-at="2022-09-09T16:42:11 EDT" depends-on-methods="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice.openingUrl" duration-ms="5817" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickingOnShopButton -->
-        <test-method signature="ClickOnHomeButton()[pri:0, instance:testNgPackage.ArrivalImageReviews@2dde1bff]" started-at="2022-09-09T15:30:04 EDT" name="ClickOnHomeButton" finished-at="2022-09-09T15:30:10 EDT" depends-on-methods="testNgPackage.ArrivalImageReviews.ClickingOnShopButton" duration-ms="5682" status="PASS">
+        </test-method> <!-- ShopButton -->
+        <test-method signature="clickHomeButton()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:42:11 EDT" name="clickHomeButton" finished-at="2022-09-09T16:42:15 EDT" depends-on-methods="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice.ShopButton" duration-ms="4467" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickOnHomeButton -->
-        <test-method signature="MoveToThreeSliders()[pri:0, instance:testNgPackage.ArrivalImageReviews@2dde1bff]" started-at="2022-09-09T15:30:10 EDT" name="MoveToThreeSliders" finished-at="2022-09-09T15:30:16 EDT" depends-on-methods="testNgPackage.ArrivalImageReviews.ClickOnHomeButton" duration-ms="6355" status="PASS">
+        </test-method> <!-- clickHomeButton -->
+        <test-method signature="threeSliders()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:42:15 EDT" name="threeSliders" finished-at="2022-09-09T16:42:24 EDT" depends-on-methods="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice.clickHomeButton" duration-ms="8451" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MoveToThreeSliders -->
-        <test-method signature="clickingImageInArrivals()[pri:0, instance:testNgPackage.ArrivalImageReviews@2dde1bff]" started-at="2022-09-09T15:30:16 EDT" name="clickingImageInArrivals" finished-at="2022-09-09T15:30:44 EDT" depends-on-methods="testNgPackage.ArrivalImageReviews.MoveToThreeSliders" duration-ms="28052" status="PASS">
+        </test-method> <!-- threeSliders -->
+        <test-method signature="arrivalImage()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:42:24 EDT" name="arrivalImage" finished-at="2022-09-09T16:42:48 EDT" depends-on-methods="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice.threeSliders" duration-ms="24002" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickingImageInArrivals -->
-        <test-method signature="addingBooksInBasket()[pri:0, instance:testNgPackage.ArrivalImageReviews@2dde1bff]" started-at="2022-09-09T15:30:44 EDT" name="addingBooksInBasket" finished-at="2022-09-09T15:30:51 EDT" depends-on-methods="testNgPackage.ArrivalImageReviews.clickingImageInArrivals" duration-ms="6254" status="PASS">
+        </test-method> <!-- arrivalImage -->
+        <test-method signature="addingBookIntoBasket()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:42:48 EDT" name="addingBookIntoBasket" finished-at="2022-09-09T16:42:54 EDT" depends-on-methods="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice.arrivalImage" duration-ms="6277" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addingBooksInBasket -->
-        <test-method signature="clickingOnReviewsTab()[pri:0, instance:testNgPackage.ArrivalImageReviews@2dde1bff]" started-at="2022-09-09T15:30:51 EDT" name="clickingOnReviewsTab" finished-at="2022-09-09T15:31:11 EDT" depends-on-methods="testNgPackage.ArrivalImageReviews.MoveToThreeSliders" duration-ms="20473" status="PASS">
+        </test-method> <!-- addingBookIntoBasket -->
+        <test-method signature="clickingOnDescription()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:42:54 EDT" name="clickingOnDescription" finished-at="2022-09-09T16:43:13 EDT" depends-on-methods="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice.addingBookIntoBasket" duration-ms="19610" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickingOnReviewsTab -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNgPackage.ArrivalImageReviews@2dde1bff]" started-at="2022-09-09T15:31:11 EDT" name="afterTest" finished-at="2022-09-09T15:31:11 EDT" duration-ms="199" status="PASS">
+        </test-method> <!-- clickingOnDescription -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:43:13 EDT" name="afterTest" finished-at="2022-09-09T16:43:14 EDT" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- testNgPackage.ArrivalImageReviews -->
+      </class> <!-- testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

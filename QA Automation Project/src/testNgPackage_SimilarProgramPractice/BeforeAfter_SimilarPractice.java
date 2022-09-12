@@ -1,4 +1,4 @@
-package testNgPackage;
+package testNgPackage_SimilarProgramPractice;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +8,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class ArrivalsImage_Description {
+public class BeforeAfter_SimilarPractice {
 	WebDriver browserObject;
 	  
 	  @Test(priority = 1)
@@ -103,15 +103,13 @@ public class ArrivalsImage_Description {
 		 @Test (dependsOnMethods = "arrivalImage")
 		 public void addingBookIntoBasket() throws InterruptedException {
 			 
-		 browserObject.findElement(By.xpath("//*[@id=\"text-22-sub_row_1-0-2-0-0\"]/div/ul/li/a[2]")).click();
-		 
-		 Thread.sleep(3000);
+		browserObject.findElement(By.xpath("//*[@id=\"text-22-sub_row_1-0-2-0-0\"]/div/ul/li/a[2]")).click();
 			 
-		 browserObject.findElement(By.xpath("//*[@id=\"text-22-sub_row_1-0-2-2-0\"]/div/ul/li/a[2]")).click();
+		  browserObject.findElement(By.xpath("//*[@id=\"text-22-sub_row_1-0-2-2-0\"]/div/ul/li/a[2]")).click();
 			  
 		  System.out.println("Adding books into the basket");
 		  
-		  Thread.sleep(3000);
+		  Thread.sleep(6000);
 		  
 		 }
 		 
@@ -154,5 +152,5 @@ public class ArrivalsImage_Description {
 				// 15. Close the web browser.   
 			        browserObject.close();
 		  
-  }
+	  }
 }
