@@ -36,6 +36,8 @@ public class DataProviderClass {
 		submitBtn.click();
 		
 		Thread.sleep(2000);
+		
+		browserObject.close();
 	}
 	
 	@DataProvider
