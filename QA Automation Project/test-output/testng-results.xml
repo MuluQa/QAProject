@@ -1,53 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="1" total="4" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-09T16:41:50 EDT" name="Default suite" finished-at="2022-09-09T16:43:14 EDT" duration-ms="83454">
+  <suite started-at="2022-09-13T00:11:12 EDT" name="Default suite" finished-at="2022-09-13T00:11:12 EDT" duration-ms="65">
     <groups>
     </groups>
-    <test started-at="2022-09-09T16:41:50 EDT" name="Default test" finished-at="2022-09-09T16:43:14 EDT" duration-ms="83454">
-      <class name="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:41:50 EDT" name="beforeTest" finished-at="2022-09-09T16:41:52 EDT" duration-ms="2085" status="PASS">
+    <test started-at="2022-09-13T00:11:12 EDT" name="Default test" finished-at="2022-09-13T00:11:12 EDT" duration-ms="65">
+      <class name="testNgPackage_SimilarProgramPractice.SkipClassTwo">
+        <test-method signature="test1()[pri:0, instance:testNgPackage_SimilarProgramPractice.SkipClassTwo@5939a379]" started-at="2022-09-13T00:11:12 EDT" name="test1" finished-at="2022-09-13T00:11:12 EDT" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="OpeningBrowserTwo()[pri:1, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:41:52 EDT" name="OpeningBrowserTwo" finished-at="2022-09-09T16:42:03 EDT" duration-ms="10345" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:testNgPackage_SimilarProgramPractice.SkipClassTwo@5939a379]" started-at="2022-09-13T00:11:12 EDT" name="test2" finished-at="2022-09-13T00:11:12 EDT" duration-ms="2" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[I am skipping]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: I am skipping
+at testNgPackage_SimilarProgramPractice.SkipClassTwo.test2(SkipClassTwo.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpeningBrowserTwo -->
-        <test-method signature="openingUrl()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:42:03 EDT" name="openingUrl" finished-at="2022-09-09T16:42:05 EDT" depends-on-methods="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice.OpeningBrowserTwo" duration-ms="2020" status="PASS">
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:testNgPackage_SimilarProgramPractice.SkipClassTwo@5939a379]" started-at="2022-09-13T00:11:12 EDT" name="test3" finished-at="2022-09-13T00:11:12 EDT" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at testNgPackage_SimilarProgramPractice.SkipClassTwo.test3(SkipClassTwo.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openingUrl -->
-        <test-method signature="ShopButton()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:42:05 EDT" name="ShopButton" finished-at="2022-09-09T16:42:11 EDT" depends-on-methods="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice.openingUrl" duration-ms="5817" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShopButton -->
-        <test-method signature="clickHomeButton()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:42:11 EDT" name="clickHomeButton" finished-at="2022-09-09T16:42:15 EDT" depends-on-methods="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice.ShopButton" duration-ms="4467" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickHomeButton -->
-        <test-method signature="threeSliders()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:42:15 EDT" name="threeSliders" finished-at="2022-09-09T16:42:24 EDT" depends-on-methods="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice.clickHomeButton" duration-ms="8451" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- threeSliders -->
-        <test-method signature="arrivalImage()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:42:24 EDT" name="arrivalImage" finished-at="2022-09-09T16:42:48 EDT" depends-on-methods="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice.threeSliders" duration-ms="24002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- arrivalImage -->
-        <test-method signature="addingBookIntoBasket()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:42:48 EDT" name="addingBookIntoBasket" finished-at="2022-09-09T16:42:54 EDT" depends-on-methods="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice.arrivalImage" duration-ms="6277" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addingBookIntoBasket -->
-        <test-method signature="clickingOnDescription()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:42:54 EDT" name="clickingOnDescription" finished-at="2022-09-09T16:43:13 EDT" depends-on-methods="testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice.addingBookIntoBasket" duration-ms="19610" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickingOnDescription -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice@2dde1bff]" started-at="2022-09-09T16:43:13 EDT" name="afterTest" finished-at="2022-09-09T16:43:14 EDT" duration-ms="293" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- testNgPackage_SimilarProgramPractice.BeforeAfter_SimilarPractice -->
+        </test-method> <!-- test3 -->
+      </class> <!-- testNgPackage_SimilarProgramPractice.SkipClassTwo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
