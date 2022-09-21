@@ -9,7 +9,6 @@ public class DropDownClass {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		
 		System.setProperty("webdriver.chrome.driver","C:\\Program Files\\chromedriver.exe");
 		
 		WebDriver browserObject = new ChromeDriver();
