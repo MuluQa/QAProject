@@ -11,6 +11,16 @@ public class DivisionTwo {
 	int div = a/b;
 	
 	System.out.println("Division "+ div);
+	
+
+	int y = 50;
+	int j = 100;
+	int k = j/y;
+	System.out.println("Division "+ k);
+
 	}
 
-}
+
+	}
+	
+

@@ -1,4 +1,4 @@
-package javaPackage;
+package javaPackageTwo;
 
 public class AdditionTwo {
 
