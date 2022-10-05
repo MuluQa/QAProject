@@ -1,76 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-24T17:43:15 EDT" name="Default suite" finished-at="2022-09-24T17:43:33 EDT" duration-ms="17488">
+  <suite started-at="2022-10-05T13:32:41 EDT" name="Default suite" finished-at="2022-10-05T13:32:41 EDT" duration-ms="0">
     <groups>
     </groups>
-    <test started-at="2022-09-24T17:43:15 EDT" name="Default test" finished-at="2022-09-24T17:43:33 EDT" duration-ms="17488">
-      <class name="testNgPackage.DataProviderClass">
-        <test-method signature="checking(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNgPackage.DataProviderClass@2abf4075]" started-at="2022-09-24T17:43:15 EDT" name="checking" data-provider="dp" finished-at="2022-09-24T17:43:21 EDT" duration-ms="5847" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Wrong Credentials]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checking -->
-        <test-method signature="checking(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNgPackage.DataProviderClass@2abf4075]" started-at="2022-09-24T17:43:21 EDT" name="checking" data-provider="dp" finished-at="2022-09-24T17:43:26 EDT" duration-ms="4545" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[adminhhkj]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Wrong Credentials]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checking -->
-        <test-method signature="checking(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNgPackage.DataProviderClass@2abf4075]" started-at="2022-09-24T17:43:26 EDT" name="checking" data-provider="dp" finished-at="2022-09-24T17:43:33 EDT" duration-ms="7046" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin@yourstore.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Test passed]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checking -->
-      </class> <!-- testNgPackage.DataProviderClass -->
+    <test started-at="2022-10-05T13:32:41 EDT" name="Default test" finished-at="2022-10-05T13:32:41 EDT" duration-ms="0">
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

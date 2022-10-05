@@ -18,5 +18,4 @@ public class AdditionTwo {
 		
 		System.out.println("Total " + g);
 	}
-
 }
